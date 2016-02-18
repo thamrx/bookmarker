@@ -40,7 +40,7 @@ class Bookmark extends Entity
             return $this->_properties['tag_string'];
         }
         if (empty($this->tags)) {
-            return 'hoi';
+            return '';
         }
         $tags = new Collection($this->tags);
         $str = $tags->reduce(function ($string, $tag) {
