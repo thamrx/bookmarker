@@ -19,7 +19,6 @@ use Cake\Collection\Collection;
  */
 class Bookmark extends Entity
 {
-
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
      *
